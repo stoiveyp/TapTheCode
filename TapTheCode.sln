@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27520.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TapTheCode", "TapTheCode\TapTheCode.csproj", "{76406FC7-D8F8-4419-8872-8293A00D2BE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TapTheCode.Tests", "TapTheCode.Tests\TapTheCode.Tests.csproj", "{CAC75A99-0D93-41C1-A883-F861BBFCC24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76406FC7-D8F8-4419-8872-8293A00D2BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76406FC7-D8F8-4419-8872-8293A00D2BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76406FC7-D8F8-4419-8872-8293A00D2BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76406FC7-D8F8-4419-8872-8293A00D2BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC75A99-0D93-41C1-A883-F861BBFCC24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC75A99-0D93-41C1-A883-F861BBFCC24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC75A99-0D93-41C1-A883-F861BBFCC24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC75A99-0D93-41C1-A883-F861BBFCC24D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74C1E1D9-541C-4CCC-AB4A-FBE7D1889395}
+	EndGlobalSection
+EndGlobal
