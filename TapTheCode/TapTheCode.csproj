@@ -6,12 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Alexa.NET.StateManagement" Version="1.0.6" />
     <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
-    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.1.1" />
+    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Alexa.NET.Gadgets">
+      <HintPath>..\..\Alexa.NET.Gadgets\Alexa.NET.Gadgets\bin\Release\netstandard1.6\Alexa.NET.Gadgets.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
